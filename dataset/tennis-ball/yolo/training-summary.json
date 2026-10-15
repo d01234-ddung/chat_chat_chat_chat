@@ -1,0 +1,17 @@
+{
+  "weights": "E:\\chatchatchatchat\\dataset\\tennis-ball\\yolo\\runs\\tennis-ball-pilot\\weights\\best.pt",
+  "training_run": "E:\\chatchatchatchat\\dataset\\tennis-ball\\yolo\\runs\\tennis-ball-pilot",
+  "test_run": "E:\\chatchatchatchat\\dataset\\tennis-ball\\yolo\\runs\\tennis-ball-pilot-test",
+  "epochs_completed": 10,
+  "best_validation_epoch": 2,
+  "best_validation_precision": 0.18293,
+  "best_validation_recall": 0.85714,
+  "best_validation_map50": 0.63599,
+  "test_images": 5,
+  "test_objects": 2,
+  "test_precision": 0.09598335106226458,
+  "test_recall": 1.0,
+  "test_map50": 0.995,
+  "test_map50_95": 0.6463778337531487,
+  "warning": "Not production-ready: only 17 positive images, 25 manually estimated boxes and 5 test images. Test precision is about 9.6%, indicating many false-positive boxes. The 99.5% test mAP50 is unstable because the test set has only 2 labeled objects. Validation also produced many false-positive boxes. Do not deploy this model."
+}
